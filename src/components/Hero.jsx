@@ -44,7 +44,7 @@ const Hero = () => {
           scale: 1,
           width: "100%",
           height: "100%",
-          duration: 1,
+          duration: 1.5,
           ease: "power1.inOut",
           onStart: () => nextVideoRef.current.play(),
         });
