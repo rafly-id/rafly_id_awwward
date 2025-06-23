@@ -62,12 +62,12 @@ const Navbar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <h1 className="text-white p-2">Zentry</h1>
             <Button
               id="product-button"
               title="Product"
               rightIcon={<TiLocation />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1 bg-opacity-80"
             />
           </div>
           <div className="flex h-full items-center">
