@@ -13,8 +13,10 @@ const AnimatedTitle = ({ title, containerClass }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "100 bottom",
-          end: "center bottom",
+          end: "300 bottom",
           toggleActions: "play none none reverse",
+          scrub: true,
+          // markers: true,
         },
       });
 

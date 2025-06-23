@@ -76,6 +76,7 @@ const Hero = () => {
         start: "center center",
         end: "bottom center",
         scrub: true,
+        // markers: true,
       },
     });
   });
