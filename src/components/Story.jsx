@@ -89,7 +89,7 @@ const FloatingImage = () => {
             <Button
               id="realm-button"
               title="discover prologue"
-              containerClass="mt-5"
+              containerClass="mt-5 bg-blue-50 md:flex hidden items-center justify-center gap-1 bg-opacity-80"
             />
           </div>
         </div>
