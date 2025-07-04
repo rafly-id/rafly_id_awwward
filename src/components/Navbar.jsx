@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import { TiLocation } from "react-icons/ti";
+import { TiLocationArrow } from "react-icons/ti";
 import Button from "./Button";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Button
               id="product-button"
               title="Product"
-              rightIcon={<TiLocation />}
+              rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1 bg-opacity-80"
             />
           </div>
