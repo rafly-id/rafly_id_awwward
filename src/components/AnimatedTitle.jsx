@@ -15,7 +15,7 @@ const AnimatedTitle = ({ title, containerClass }) => {
           start: "100 bottom",
           end: "300 bottom",
           toggleActions: "play none none reverse",
-          scrub: true,
+          // scrub: true,
           // markers: true,
         },
       });
